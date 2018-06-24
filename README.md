@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Automate Man In The Middle Attacks (MITMAs) over WiFi with PrimeModz wispy.
-Wirespy allows attackers to set up quick honeypots to carry out MITMAs. Monitoring and logging functionalities are implemented in order to keep records of the victims traffics/activities. Other tools can be used together with Wirespy to further more advanced attacks. 
+Wispy allows attackers to set up quick honeypots to carry out MITMAs. Monitoring and logging functionalities are implemented in order to keep records of the victims traffics/activities. Other tools can be used together with Wispy to further more advanced attacks. 
 
 Two type of attacks are supported at the moment:
 * **Honeypot:** set up a simple rogue hotspot and wait for clients to connect.
@@ -24,12 +24,12 @@ Two type of attacks are supported at the moment:
 ## Usage
 1. Make the script executable:
 ```
-$ chmod +x wirespy.sh
+$ chmod +x wispy.sh
 ```
 
 2. Run the script as root:
 ```
-$ sudo ./wirespy.sh
+$ sudo ./wispy.sh
 ```
 
 ## Dependencies
